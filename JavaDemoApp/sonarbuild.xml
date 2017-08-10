@@ -88,7 +88,7 @@
 		<target name="sonar" depends="build">
 			<taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
 				<!-- Update the following line, or put the "sonar-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
-				<classpath path="C:\Users\sm222\Documents\SonarJarFile\sonar-ant-task-2.3.jar" />
+				<classpath path="C:/Users/sm222/Documents/Eclipse/eclipse-jee-luna/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/sonar-ant-task-2.3.jar" />
 			</taskdef>           		
 			<!-- Execute Sonar -->
 			<sonar:sonar />
